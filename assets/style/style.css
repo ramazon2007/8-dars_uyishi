@@ -1,0 +1,668 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1440px;
+  height: 96px;
+  display: flex;
+  gap: 150px;
+  margin: 0 auto;
+}
+
+.container img {
+  position: relative;
+  width: 107.82px;
+  height: 28.56px;
+  top: 34px;
+  left: 169px;
+  cursor: pointer;
+}
+
+.container h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: 34px;
+  left: 200px;
+  opacity: 60%;
+  cursor: pointer;
+}
+
+.container h1:hover {
+  color: #FCB72B;
+  transition: 0.5s;
+}
+
+.container button {
+  position: relative;
+  width: 180px;
+  height: 53px;
+  top: 22px;
+  left: 200px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 0px;
+  background-color: #FCB72B;
+}
+
+.container button:hover {
+  background-color: transparent;
+  color: #FCB72B;
+  border: 2px solid #FCB72B;
+  transition: 0.5s;
+}
+
+.container1 {
+  position: relative;
+  width: 1440px;
+  height: 200px;
+  margin: 0 auto;
+}
+
+.container1 h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: -2.5px;
+  text-align: left;
+  cursor: pointer;
+  top: -140px;
+  left: 150px;
+  color: white;
+}
+
+.container2 {
+  position: relative;
+  width: 1440px;
+  height: 445px;
+  top: 50px;
+  margin: 0 auto;
+}
+
+.container2 h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  top: 100px;
+  left: 200px;
+  opacity: 60%;
+}
+
+.container2 p {
+  position: relative;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: 110px;
+  left: 200px;
+  opacity: 60%;
+}
+
+.container2 .bitmap {
+  position: relative;
+  width: 445px;
+  height: 445px;
+  border-radius: 100%;
+  top: -170px;
+  left: 850px;
+}
+
+.container2 .group {
+  position: relative;
+  width: 735px;
+  height: 139px;
+  top: -220px;
+  left: 260px;
+  border: 15px;
+}
+
+.container3 {
+  position: relative;
+  width: 1440px;
+  height: 445px;
+  top: 100px;
+  margin: 0 auto;
+}
+
+.container3 .bitmap1 {
+  position: relative;
+  width: 445px;
+  height: 445px;
+  top: 0px;
+  left: 150px;
+}
+
+.container3 .group1 {
+  position: relative;
+  width: 550px;
+  height: 200px;
+  top: -200px;
+  left: -600px;
+  border: 15px;
+}
+
+.container3 h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: left;
+  top: -350px;
+  left: 850px;
+  opacity: 60%;
+}
+
+.container3 p {
+  position: relative;
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  text-align: left;
+  top: -340px;
+  left: 850px;
+  opacity: 60%;
+}
+
+.container4 {
+  position: relative;
+  width: 1440px;
+  height: 608px;
+  top: 150px;
+  margin: 0 auto;
+}
+
+.container4 h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: -2.1428570747px;
+  text-align: center;
+  top: 0px;
+}
+
+.container4 .haw {
+  position: relative;
+  width: 1050px;
+  display: flex;
+  gap: 100px;
+  top: 20px;
+  margin: 0 auto;
+}
+
+.container4 .haw .big {
+  position: relative;
+  width: 96px;
+  height: 96px;
+  background-color: #FCB72B;
+  border-radius: 100%;
+  margin: 0 auto;
+  left: -10px;
+  top: -50px;
+  cursor: pointer;
+}
+
+.container4 .haw .big h1 {
+  position: relative;
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  text-align: center;
+  opacity: 60%;
+  top: 30px;
+}
+
+.container4 .haw .box h1 {
+  font-family: 'Space Mono', monospace;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -1.0714285374px;
+  opacity: 60%;
+  text-align: center;
+}
+
+.container4 .haw .box p {
+  font-family: 'Lexend Deca', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0px;
+  opacity: 60%;
+  text-align: center;
+}
+
+.delay {
+  position: relative;
+  width: 1440px;
+  height: 960px;
+  /* background-color: aqua; */
+  margin: 0 auto;
+  top: 200px;
+
+  h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: center;
+    color: #495567;
+  }
+
+  .delay1 {
+    width: 1440px;
+    height: 407px;
+    /* background-color: chocolate; */
+    margin-top: 50px;
+
+    h1 {
+      position: relative;
+      font-family: 'Space Mono', monospace;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -1.7857142686843872px;
+      text-align: left;
+      opacity: 60%;
+      cursor: pointer;
+      top: 10px;
+      left: 150px;
+    }
+
+    .del {
+      position: relative;
+      width: 730px;
+      height: 180px;
+      background-color: #F2F5F9;
+      top: -50px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Space Mono', monospace;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        opacity: 60%;
+        cursor: pointer;
+        top: 25px;
+        left: 40px;
+      }
+
+      p {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        opacity: 60%;
+        text-align: left;
+        top: 40px;
+        left: 40px;
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: -70px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+
+    .del1 {
+      position: relative;
+      width: 730px;
+      height: 92px;
+      background-color: #F2F5F9;
+      top: -35px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        opacity: 60%;
+        cursor: pointer;
+        top: 30px;
+        left: 40px;
+
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+
+    .del2 {
+      position: relative;
+      width: 730px;
+      height: 92px;
+      background-color: #F2F5F9;
+      top: -20px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        cursor: pointer;
+        opacity: 60%;
+        top: 30px;
+        left: 40px;
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .delta {
+    width: 1440px;
+    height: 407px;
+    /* background-color: chocolate; */
+    margin-top: 50px;
+
+    h1 {
+      position: relative;
+      font-family: 'Space Mono', monospace;
+      font-size: 40px;
+      font-weight: 700;
+      line-height: 48px;
+      letter-spacing: -1.7857142686843872px;
+      text-align: left;
+      opacity: 60%;
+      cursor: pointer;
+      top: 10px;
+      left: 150px;
+    }
+
+    .delta1 {
+      position: relative;
+      width: 730px;
+      height: 180px;
+      background-color: #F2F5F9;
+      top: -50px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Space Mono', monospace;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        opacity: 60%;
+        cursor: pointer;
+        top: 25px;
+        left: 40px;
+      }
+
+      p {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 25px;
+        letter-spacing: 0px;
+        opacity: 60%;
+        text-align: left;
+        top: 40px;
+        left: 40px;
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: -70px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+
+    .delta2 {
+      position: relative;
+      width: 730px;
+      height: 92px;
+      background-color: #F2F5F9;
+      top: -35px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        opacity: 60%;
+        cursor: pointer;
+        top: 30px;
+        left: 40px;
+
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+
+    .delta3 {
+      position: relative;
+      width: 730px;
+      height: 92px;
+      background-color: #F2F5F9;
+      top: -20px;
+      left: 650px;
+
+      h1 {
+        position: relative;
+        font-family: 'Lexend Deca', sans-serif;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 28px;
+        letter-spacing: -1.0714285373687744px;
+        text-align: left;
+        cursor: pointer;
+        opacity: 60%;
+        top: 30px;
+        left: 40px;
+      }
+
+      img {
+        position: relative;
+        width: 20px;
+        height: 20px;
+        top: 10px;
+        left: 650px;
+        border: 3px;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.footer {
+  position: relative;
+  width: 1440px;
+  height: 300px;
+  background-color: #495567;
+  margin: 0 auto;
+  top: 100px;
+
+  h1 {
+    position: relative;
+    font-family: 'Space Mono', monospace;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    letter-spacing: -2.142857074737549px;
+    text-align: left;
+    color: white;
+    top: 100px;
+    left: 150px;
+  }
+
+  .group28 {
+    position: relative;
+    width: 159px;
+    height: 56px;
+    top: -130px;
+    left: 930px;
+    cursor: pointer;
+
+    &:hover {
+      border: 3px solid #FCB72B;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+  }
+
+  .group29 {
+    position: relative;
+    width: 159px;
+    height: 56px;
+    top: -130px;
+    left: 950px;
+    cursor: pointer;
+
+    &:hover {
+      border: 3px solid #FCB72B;
+      border-radius: 5px;
+      transition: 0.5s;
+    }
+  }
+}
+.footer .img{
+  position: relative;
+  top: 50px;
+  left: 450px;
+}
+
+.footer_tagi {
+  position: relative;
+  width: 1440px;
+  height: 96px;
+  top: 100px;
+  margin: 0 auto;
+  display: flex;
+  gap: 80px;
+  background-color: #333A44;
+
+  .scoot {
+    position: relative;
+    width: 107.82px;
+    height: 28.56px;
+    top: 37px;
+    left: 168.6px;
+    cursor: pointer;
+  }
+
+  h1 {
+    position: relative;
+    font-family: 'Space Mono', monospace;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #939CAA;
+    cursor: pointer;
+    top: 40px;
+    left: 180px;
+
+    &:hover {
+      color: #FCB72B;
+      transition: 0.5s;
+    }
+  }
+
+  .facebook {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    left: 550px;
+    cursor: pointer;
+  }
+
+  .twitter {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    left: 500px;
+    cursor: pointer;
+  }
+
+  .instagram {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    top: 40px;
+    left: 450px;
+    cursor: pointer;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
